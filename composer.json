@@ -1,0 +1,28 @@
+{
+    "name": "morganrowse/destiny",
+    "description": "The missing Laravel Profile scaffold - Opinionated. Clean. Extendable.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morgan",
+            "email": "morgan.rowse@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Destiny\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "league/color-extractor": "0.3.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Destiny\\DestinyServiceProvider"
+            ]
+        }
+    }
+}

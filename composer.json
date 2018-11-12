@@ -5,8 +5,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Morgan",
-            "email": "morgan.rowse@gmail.com"
+            "name": "Morgan"
         }
     ],
     "autoload": {
